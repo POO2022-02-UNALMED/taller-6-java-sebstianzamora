@@ -98,10 +98,5 @@ public class Vehiculo {
         Vehiculo.CantidadVehiculos = CantidadVehiculos;
     }
     
-    public static String vehiculosPorTipo(){       
-        String cad =  "Automoviles: " + Automovil.getAutos()+
-                "\nCamionetas: "+Camioneta.getCamionetas()+
-                "\nCamiones: "+Camion.getCamiones();
-        return cad
-    }
+  
 }
