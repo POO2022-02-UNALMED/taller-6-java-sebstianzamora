@@ -70,7 +70,7 @@ public class Vehiculo {
     }
 
     public void setPeso(double peso) {
-        this.peso = peso
+        this.peso = peso;
     }
 
     public String getTraccion() {
